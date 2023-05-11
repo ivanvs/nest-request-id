@@ -1,0 +1,39 @@
+{
+  "name": "nest-request-id",
+  "version": "1.0.0",
+  "description": "Middleware for managing request id  headers in NestJS app.",
+  "main": "index.js",
+  "scripts": {
+    "build": "nest build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanvs/nest-request-id.git"
+  },
+  "keywords": [
+    "nestjs",
+    "request-id",
+    "correlation-id",
+    "x-request-id",
+    "x-correlation-id"
+  ],
+  "author": "Ivan Vasiljevic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanvs/nest-request-id/issues"
+  },
+  "homepage": "https://github.com/ivanvs/nest-request-id#readme",
+  "dependencies": {
+    "ts-jest": "29.0.5",
+    "ts-loader": "^9.2.3",
+    "ts-node": "^10.0.0",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "^4.7.4",
+    "uuid": "9.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^9.4.0",
+    "express": "^4.18.2"
+  }
+}
