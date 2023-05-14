@@ -2,7 +2,7 @@
   "name": "nest-request-id",
   "version": "1.0.0",
   "description": "Middleware for managing request id  headers in NestJS app.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "build": "nest build",
     "test": "echo \"Error: no test specified\" && exit 1"
