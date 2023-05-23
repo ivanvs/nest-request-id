@@ -6,11 +6,13 @@
       "entryFile": "index",
       "sourceRoot": "libs/nest-request-id/src",
       "compilerOptions": {
-        "tsConfigPath": "libs/nest-request-id/tsconfig.lib.json"
+        "tsConfigPath": "libs/nest-request-id/tsconfig.lib.json",
+        "deleteOutDir": true
       }
     }
   },
   "compilerOptions": {
-    "webpack": true
+    "webpack": true,
+    "declaration": true
   }
 }
