@@ -1,6 +1,6 @@
 {
   "name": "nest-request-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Middleware for managing request id  headers in NestJS app.",
   "main": "index.ts",
   "scripts": {
